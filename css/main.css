@@ -1,0 +1,142 @@
+section{
+    width: 90%;
+    height: 550px;
+    margin: 0 auto;
+    position: relative;
+    top: 15px;    
+}
+.work__item {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    min-height: 375px;
+    max-height: 720px;
+    padding: 10px;
+    -webkit-perspective: 300px;
+            perspective: 300px;
+  }
+  .work__item:after {
+    position: absolute;
+    z-index: 0;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    display: block;
+    content: '';
+    background: transparent;
+    box-shadow: 4px 4px 80px rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .work__item-inner {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    background: black;
+    overflow: hidden;
+    *box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.3);
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+  }
+  
+  .work__item-img-outer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+  }
+  
+  .work__item-img {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
+.main_right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60%;
+    height: 500px;
+}
+.text_box{
+    position: absolute;
+    top: 3%;
+    left: -110px;
+    width: 90%;
+}
+.text_box h2{
+    font-size: 150pt;
+    font-weight: 800;
+    margin-bottom: 30px;
+    color: #ad1702;
+    font-family: 'TOMATOES Personal Use';
+}
+.text_info{
+    position: absolute;
+    top: 230px;
+    left: 110px;
+    width: 100%;
+    height: 250px;
+}
+.box_left{
+    position: absolute;
+    top: 5%;
+    left: 0;
+    width: 75%;
+    height: 250px;
+}
+.box_left h4{
+    font-size: 13pt;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #cecece;
+}
+.box_left h3{
+    font-size: 25pt;
+    font-weight: 800;
+    margin-bottom: 60px;
+}
+.box_left p{
+    font-size: 10pt;
+    line-height: 15pt;
+}
+.box_right{
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    width: 25%;
+}
+
+.box_right .btn{
+    font-size: 10pt;
+    font-weight: 600;
+    width: 180px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.box_right .btn a{
+    color: #ad1702;
+    display:block;
+    width: 180px;
+    height: 40px;
+    line-height: 37px;
+    border-radius: 100px;
+    border: 1.5px solid #ad1702;
+    box-sizing: border-box;
+    text-align: center;
+    transition-duration: 0.7s;
+}
+.box_right .btn a:hover {
+    background: #ad1702;
+    color: white;
+}
+
+/* ---------- main */

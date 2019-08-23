@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1920px, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>영화 "마미" 소개 사이트</title>
+    <link rel="stylesheet" href="./css/all.css"/>
+    <link rel="stylesheet" href="./css/gallery.css"/>
+    <link rel="stylesheet" href="./css/jquery.mCustomScrollbar.min.css"/>
+</head>
+<body>
+    <header>
+        <h1 id="logo"><a href="main.html">mommy</a></h1>
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="hear.html">Hear</a></li>
+        </ul>
+    </header>
+    <section>
+        <div class="video">
+            <div class="left_v">
+                <h2><strong>VIDEO</strong></h2>
+                <h3>Gallery</h3>
+                <p>
+                    4편의 예고편 감상하기<br/>
+                    (티저, 메인, 리뷰, 감독판)<br/>
+                    공식사이트에서 메이킹 필름과<br/> 
+                    뮤직비디오를 감상할 수 있습니다.
+                </p>
+            </div>
+            <div class="right_v">
+                <div id="gallery" class="gallery">
+                    <div class="view">
+                      <div class="view-item selected"><div id="player1" class="video"></div><div class="dim">&nbsp;</div></div>
+                      <div class="view-item"><div id="player2" class="video"></div><div class="dim">&nbsp;</div></div>
+                      <div class="view-item"><div id="player3" class="video"></div><div class="dim">&nbsp;</div></div>
+                      <div class="view-item"><div id="player4" class="video"></div><div class="dim">&nbsp;</div></div>
+                    </div>
+                    <ul class="list"><li class="selected"><a href="#">&nbsp;</a></li><li><a href="#">&nbsp;</a></li><li><a href="#">&nbsp;</a></li><li><a href="#">&nbsp;</a></li></ul>
+                  </div>
+            </div>
+        </div>
+        <div class="gphoto">
+            <div class="photo_box">
+                <div id="p-gallery" class="p-gallery">
+                        <div class="photo">
+                            <div class="photo-container">
+                            <div class="photo-item"><img src="./img/8.jpg"></div>
+                            <div class="photo-item"><img src="./img/2.jpg"></div>
+                            <div class="photo-item"><img src="./img/3.jpg"></div>
+                            <div class="photo-item"><img src="./img/4.jpg"></div>
+                            <div class="photo-item"><img src="./img/5.jpg"></div>
+                            <div class="photo-item"><img src="./img/6.jpg"></div>
+                            <div class="photo-item"><img src="./img/7.jpg"></div>
+                            <div class="photo-item"><img src="./img/1.jpg"></div>
+                            </div>
+                        </div>
+                        <div class="g_left">
+                        <ul class="p-list">
+                            <li class="selectedd"><a href="#"><img src="./img/thum8.jpg"></a></li>
+                            <li><a href="#"><img src="./img/thum2.jpg"></a></li>
+                            <li><a href="#"><img src="./img/thum3.jpg"></a></li>
+                            <li><a href="#"><img src="./img/thum4.png"></a></li>
+                            <li><a href="#"><img src="./img/thum5.jpg"></a></li>
+                            <li><a href="#"><img src="./img/thum6.jpg"></a></li>
+                            <li><a href="#"><img src="./img/thum7.jpg"></a></li>
+                            <li><a href="#"><img src="./img/thum1.jpg"></a></li>
+                        </ul>
+                        </div>
+                        </div>
+                    <ul class="btn">
+                        <li id="prev"><a href="#">&lt;</a></li>
+                        <li id="next"><a href="#">&gt;</a></li>
+                    </ul>
+            </div>
+            <div class="p-title">
+                <hr noshade/>
+                <h2>Photo</h2>
+                <h3>Gallery</h3>
+                <p>
+                    "mommy"는 자칫 답답한 느낌이 될 수 있는<br/>
+                    1:1 정사각형 화면 사용하였습니다.<br/>
+                    이는 인물에 집중하기 위한 선택으로서<br/>
+                    사회적 고립을 자초한 스티브와 디안,<br/>
+                    카일라가 구축하는 3인의 모성적 공동체를<br/>
+                    위한 것이라고 합니다.
+                    <br/><br/>
+                    한편으로는 답답한 현실의 틀에 갇힌 것을 암시하는데,<br/>
+                    실제로 감정 전달이 더 잘 되었다는 평과 <br/>
+                    상황에 따라 달라지는 화면의 변화에<br/>
+                    더 깊게 영화를 감상할 수 있습니다.<br/>
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>2014.12.18 개봉 [프랑스, 15세 관람가]</p>
+        <a href="#" class="go_btn">작품 더보기 →</a>
+    </footer>
+
+    <script src="./js/gallery.js"></script>
+    <script src="./js/jquery-2.1.4.min.js"></script>
+    <script src="./js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./js/jquery-ui.min.js"></script>
+    <script src="./js/scroll.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
